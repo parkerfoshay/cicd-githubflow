@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Sample Blog'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'CI/CD Pipeline Demo'
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="CI/CD Pipeline Demo"
         />
         <meta
           property="og:image"
